@@ -1,0 +1,74 @@
+.Home{
+    background-image: url("https://assets.deutschlandfunk.de/FILE_6bdad2b629073b32b7a8aaf82aef0511/1280x720.jpg?t=1597555082982");
+ margin-bottom: -40px;
+}
+ul{
+    list-style-type: none;
+}
+.headerHome{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+    ul{
+        display: flex;
+        flex-direction: row;
+        flex-grow: 0.9;
+        justify-content: space-between;
+        margin-right:150px;
+        margin-left: 100px;
+    }
+    .buttonAdd{
+        margin-top: 5px;
+        margin-left: 100px;
+        height: 40px;
+    }
+}
+.searchButton{
+    margin-top: 5px;
+    margin-right: 80px;
+    height: 30px;
+}
+.moviaIcon{
+    margin-left: 20px;
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+.card{
+    margin-top: 10px;
+   border: 3px solid black;
+   border-radius: 5px;
+   align-items: center;
+   text-align: center;
+    img{
+        height: 200px;
+        width: 320px;
+    }
+    background-color: blue;
+    ;
+    
+}
+
+ .kinolar{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 50px
+ }
+.btnAdd{
+    width: 80px;
+    height: 40px;
+    flex-shrink: 0;
+    background: blue;
+    border: 3px solid black;   
+    border-radius: 10px;
+    color: white !important;
+    font-family: Lexend Deca;
+    font-size: 20px;
+   font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0 auto;
+}

@@ -1,0 +1,61 @@
+.SingleEdit{
+    margin: 0 auto;
+}
+.SingleEditInner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    h2{
+        color: black;
+        font-family: DM Serif Display;
+        font-size: 60px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+     }
+     p{   margin-top: -15px;
+        color: #A5A5A5;
+        font-family: Lexend Deca;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+    }
+    .form{
+     display: flex;
+     flex-direction: column;
+    }
+    .select{
+        width: 300px;
+        margin: 0 auto;
+        margin-top: -10px;
+        margin-bottom: 40px;
+        margin-left: 60px;
+    }
+}
+ul{
+    display: flex;
+    flex-direction: column;
+    .inp{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 350px;
+    }
+}
+.addButton{
+    width: 180px;
+    height: 45px;
+    flex-shrink: 0;
+    background: green;
+    border: 3px solid black;   
+    border-radius: 10px;
+    color: white !important;
+    font-family: Lexend Deca;
+    font-size: 20px;
+   font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0 auto;
+}
