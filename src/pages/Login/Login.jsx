@@ -9,14 +9,14 @@ function Login() {
   const [loading, setLoading] = useState(false);
   let [phone,setPhone]=useState("");
   let [parol,setParol]=useState("");
-  let PhoneNumber="+998931336461";
-  let Parol="frontend1"
+  let PhoneNumber="+998";
+  let Parol="front"
   function handleClick() {
     setLoading(true);
     if(PhoneNumber===phone && Parol===parol){
-      navigate('/home');
-    }else{
       navigate('/');
+    }else{
+      navigate('/login');
     }
   }
   return (
@@ -24,8 +24,8 @@ function Login() {
         <div className="LoginCheck">
             <h2>Welcome</h2>
             <p>Let’s log you in quickly</p>
-            <TextField onChange={(e)=>setPhone(e.target.value)}  className='inp' id="standard-basic" label="Enter your phone" variant="standard" />
-            <TextField onChange={(e)=>setParol(e.target.value)}  className='inp' id="standard-basic" label="Enter your parol" variant="standard" />
+            <TextField onChange={(e)=>setPhone(e.target.value)}  className='inp' id="standard-basic" label="Enter your phone(Default:+998)" variant="standard" />
+            <TextField onChange={(e)=>setParol(e.target.value)}  className='inp' id="standard-basic" label="Enter your parol(Default:front)" variant="standard" />
             <LoadingButton className='loadingButton'
               onClick={handleClick}
               loading={loading}

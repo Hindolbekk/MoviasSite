@@ -36,6 +36,11 @@ function Home() {
         navigate('/add')
       }, 1000); 
   } 
+  function NavigateLogin() {
+    setTimeout(() => {
+      navigate('/login')
+    }, 1000); 
+} 
   useEffect(()=>{
   getData()
   },[])
@@ -48,7 +53,8 @@ function Home() {
           <Button className='kat'  onClick={animalFc} >animals</Button>
           <Button className='kat'  onClick={sportFc}  >sport</Button>
         </ul>
-      <button className='btnAdd' onClick={NavigateAdd}>add</button>
+      <button className='btnAdd' onClick={NavigateLogin}>login</button>
+      <button className='btnLogin' onClick={NavigateAdd}>add</button>
       </div>
        <div className="kinolar">
         <div className="cards">{
